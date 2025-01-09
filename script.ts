@@ -3,9 +3,10 @@ document
   .getElementById("resumeForm")
   ?.addEventListener("submit", function (event) {
     event.preventDefault();
-
     //type assertion
-    const profilePictureInput = document.getElementById("profilePicture")as HTMLInputElement;
+    const profilePictureInput = document.getElementById(
+      "profilePicture"
+    ) as HTMLInputElement;
 
     const nameElement = document.getElementById("name") as HTMLInputElement;
     const emailElement = document.getElementById("email") as HTMLInputElement;
@@ -34,11 +35,12 @@ document
       const experience = experienceElement.value;
       const skills = skillsElement.value;
 
-    //profile picture element
+      //profile picture element
 
-    const profilePictureFile = profilePictureInput.files?.[0]
-    const profilePictureURL = profilePictureFile ? URL.createObjectURL(profilePictureFile) : '';
-   
+      const profilePictureFile = profilePictureInput.files?.[0];
+      const profilePictureURL = profilePictureFile
+        ? URL.createObjectURL(profilePictureFile)
+        : "";
 
       //create resumeOutput
       const resumeOutput = `
@@ -49,8 +51,8 @@ document
          : ""
      }
     <p><strong>Name:</strong> ${name} </p>
-    <p><stronge>Email:</strong> ${email}</p>
-    <p><strondg>Phone:</strong> ${phone} </p>
+    <p><strong>Email:</strong> ${email}</p>
+    <p><strong>Phone:</strong> ${phone} </p>
 
 
     <h3>Education</h3>
@@ -63,7 +65,7 @@ document
     <p> ${skills}</p>
 
     `;
-    
+
       const resumeOutputElement = document.getElementById("resumeOutput");
       if (resumeOutputElement) {
         resumeOutputElement.innerHTML = resumeOutput;

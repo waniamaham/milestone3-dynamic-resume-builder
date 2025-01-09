@@ -1,97 +1,92 @@
 body {
-    font-family:'Times New Roman', Times, serif , bold ;
-   margin: 20px;
-   background-color: rgb(223, 200, 241);
+  font-family: "Times New Roman", Times, serif, bold;
+  margin: 20px;
+  background-color: rgb(223, 200, 241);
 }
 
 h1 {
-    text-align: center;
-    color: rgb(230, 25, 178);
-
+  text-align: center;
+  color: rgb(230, 25, 178);
 }
 form {
-    max-width: 600px;
-    margin: auto;
-    background-color: rgb(236, 197, 236);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0.8);
-    padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: rgb(236, 197, 236);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0.8);
+  padding: 20px;
 }
 
 fieldset {
-    border: 3px solid rgb(243, 111, 177);
-    border-radius: 8px;
-    padding:  20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    background-color: aliceblue;
-
+  border: 3px solid rgb(243, 111, 177);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  background-color: aliceblue;
 }
 legend {
-    font-weight: bold italic underline;
-    text-align: left;
-    color: black;
-    font-size: larger;
-
+  font-weight: bold italic underline;
+  text-align: left;
+  color: black;
+  font-size: larger;
 }
 
 label {
-    display: block;
-    margin-top: 10px;
-    color: rgb(5, 5, 5);
-    font-size: medium;
+  display: block;
+  margin-top: 10px;
+  color: rgb(5, 5, 5);
+  font-size: medium;
 }
-input,textarea {
-    width: calc(100% - 1px);
-    padding: 8px;
-    margin-top: 4px;
-    border: 1px solid plum;
-    border-radius: 6px;
-    box-sizing:  border-box;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+input,
+textarea {
+  width: calc(100% - 1px);
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid plum;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 button {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    background-color:rgb(243, 111, 177);
-    color: white;
-    border: 1px  solid rgb(243, 111, 177);
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 0;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    box-shadow: 5px rgb(179, 178, 178);
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(243, 111, 177);
+  color: white;
+  border: 1px solid rgb(243, 111, 177);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 5px rgb(179, 178, 178);
 }
 button:hover {
-    background-color: rgb(166, 92, 236);
+  background-color: rgb(166, 92, 236);
 }
-
 
 #resumeOutput {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 2px solid  plum;
-    border-radius: 8px;
-    background-color: rgb(223, 200, 241);
-    box-shadow: 0 4px 8px rgb(0, 0, 0.7);
-
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid plum;
+  border-radius: 8px;
+  background-color: rgb(223, 200, 241);
+  box-shadow: 0 4px 8px rgb(0, 0, 0.7);
 }
 
-#resumeOutput h2{
-     color: rgb(230, 25, 178);
-    
+#resumeOutput h2 {
+  color: rgb(230, 25, 178);
 }
-.profilePicture{
-    display: block;
-    margin: 0 auto;
-    border: 2px solid rgb(243, 111, 177);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    border-radius: 500%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+.profilePicture {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid rgb(243, 111, 177);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 500%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
