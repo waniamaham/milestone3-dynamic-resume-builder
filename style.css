@@ -68,16 +68,7 @@ button {
 button:hover {
     background-color: rgb(166, 92, 236);
 }
-.profilePicture{
-    display: block;
-    margin: 0 auto;
-    border: 2px solid rgb(250, 188, 94);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    border-radius: 500%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
+
 
 #resumeOutput {
     max-width: 600px;
@@ -93,4 +84,14 @@ button:hover {
 #resumeOutput h2{
      color: rgb(230, 25, 178);
     
+}
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(243, 111, 177);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 500%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
